@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .wrapper {
+    word-wrap: break-word;
+    width: 30%;
+    padding: 2rem 0;
+  }
+  
+  .wrapper,
+  .container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .container {
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+    max-width: 62.5rem;
+    height: 35.1875rem;
+    line-height: 0;
+  }
+  
+  .slideDiv,
+  .controls {
+    position: absolute;
+  }
+  
+  .slideDiv,
+  .slide {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slide {
+    background-size: cover;
+  }
+  
+  .slide:first-child {
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI1fATEwcYqFav8WxWcbdsBoyBYscfs2T8zNPohvRk7gnEnxOAmM7wJkdeo4fkVxHflbQo3TVlDXpwqz7bURkD9J4N241zcMa1QR7xFvSkB2RJ03zyfXuuFF32pyi43u97EyHauJu1tjxQPrsZJzTIYQpBisyWjSrr5Q7j6BqzP61lXScv0A_NbfCZ/s1600/room6.jpeg) no-repeat center;
+  }
+  
+  .slide:nth-of-type(2) {
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNAz8fHzZYuhd1O8wPqf419fS9-thOoEu9o19GDcqbziZht_uhYnMZjbdyKkrJ6P91CgG7L4L5VOnHYMzHBl9lyhK94H8LMIn6gM67R-SjlN982BQ9xDTC5Z8Khq8nWXasMR1qS10NxzKd0v3kTTLe-k64nhqvoX3MBUzHcsWqoAFlYwyPjwEyf_bf/s1600/imnstalaciones1.jpeg) no-repeat center;
+  }
+  
+  .slide:nth-of-type(3) {
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7jOXA8kAjBVQk-UhBme6Lq5gLRKE6fMgpa6CsdFvSXW5i0Z4JtcY1mwtEULZreZamJYjyS4JkhsjQQ1WSZ0YYsoNCxliw27Fv5jGIrVPU1iUVBh2rn8NMH6DKKa6ippAxJVB4dDii7XcHEl2LTndpBQLzKgbZpAOz1snna9YHsKqMA6DBP2arN9Vy/s1600/imnstalaciones9.jpeg) no-repeat center;
+  }
+  
+  .slide:last-child {
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy_4yyzDLSSNY9CcOUhqrw5tEZYgfryZWMeC_uzV-Wz8XZMR8zBRkejGTKpC-ftQo0bBScKwiBKxX6ugTXUcI5gSNLJ4cdlnc71pYvERekoGkK1tMFRAt8B1d4o5XESd7gKvtf-yeJvlap1mHxRKujnu3_BaRyjK1lE49u1JZ8AzYqBmEE7SQQh5s7/s1600/room4.jpeg) no-repeat center;
+  }
+  
+  .controls {
+    top: 41%;
+    right: 0;
+    padding: 0 0.63rem;
+    z-index: 5;
+    text-align: center;
+  }
+  
+  .button { 
+    width: 0.9375rem;
+    height: 0.9375rem;
+    display: block;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all ease .2s;
+  }
+  
+  .button:not(:last-child) {
+    margin-bottom: 0.63rem;
+  }
+  
+  
+  .button {
+    border: 1px solid #fff;
+    opacity: .6;
+    outline: none;
+    background-color: #333;
+  }
+  
+  .button:hover,
+  .button:focus {
+    opacity: 1;
+  }
+  
+  .selected {
+    background-color: #CB411F;
+  }
+
+
+
+  
+
+
+/*   .slider{
+    aspect-ratio: 10/16;
+    width: 300px;
+    position: relative;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  .slider img{
+    width: 100%;
+    left: 0;
+    position: sticky;
+    object-fit: cover;
+    border-radius: 5px;
+    scroll-snap-align: center;
+  } */
